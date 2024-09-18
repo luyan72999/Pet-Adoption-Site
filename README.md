@@ -14,13 +14,12 @@ npm run start
 # Security Features
 ### only logged in user can view the user profile information
 ### only logged in user can apply to adopt a pet
-(Note: other pages like admin does not include security features for now due to time limit)
 
 # Go to Admin in the nav bar to explore CRUD operations on pets
 ### It is recommended that when you fill in "pet city", fill in your current city like "Vancouver", "Burnaby", etc. so that the home page can render these pets for you (because it only renders pets based on your location)
 ### Provide an image url from the internet for "pet image url", although this field is not required
 
 # Apply to adopt a pet
-### After you have logged in, you can click Adopt to apply. Then your application information will be shown in your user profile page. 
+### After you have logged in, you can click Adopt to apply, then your application information will be shown in your user profile page. 
 
 
