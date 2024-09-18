@@ -1,0 +1,130 @@
+/* Adopt.css */
+
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAF9F6; /* Original background color */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+    background-color: whitesmoke; /* Alice blue */
+    color: indigo;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    background-color: whitesmoke; /* Alice blue */
+    color: darkblue;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  
+  /* Location message styling */
+  .location-msg {
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  
+  /* City font styling */
+  .city-font {
+    font-weight: bold;
+    color:darkgreen;
+  }
+  
+  /* Pet card styling */
+  .pet-card {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .pet-card-image {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .pet-card-body {
+    padding: 20px;
+  }
+  
+  .pet-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .pet-info {
+    margin-top: 10px;
+  }
+  
+  /* Buttons styling */
+  .pet-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .view-detail {
+    background-color: #ADD8E6;
+    color: black;
+    font-weight: bold;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    margin-right: 1%;
+  }
+  
+  .adopt-pet {
+    background-color: #BC8F8F;
+    border: 0;
+    width: 150px;
+    height: 50px;
+    margin-right: 1%;
+  }
+  
+  /* Map card styling */
+  .map-card {
+    width: 40vh;
+    margin-top: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-card-image {
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .map-card-body {
+    padding: 20px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #DC143C;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

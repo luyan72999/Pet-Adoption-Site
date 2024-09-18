@@ -1,0 +1,19 @@
+h1 {
+    background-color: whitesmoke; 
+    color: indigo;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+  
+h2 {
+    background-color: whitesmoke; 
+    color: darkblue;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+  .carousel-caption h5 {
+    font-weight: bold;
+    text-shadow: 2px black;
+  }
+  

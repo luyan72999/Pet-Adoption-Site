@@ -1,0 +1,67 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model Pet {
+  petID          Int      @id @default(autoincrement())
+  petName        String
+  petBirthYear   Int
+  petGender      Gender
+  petCity        String
+  petDescription String?
+  imageUrl       String?
+  applications Application[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model User {
+  userEmail   String     @id
+  userPassword String
+  userName String
+  userBirthYear Int
+  userRole Role @default(USER)
+  applications Application[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Application {
+  userEmail         String
+  petID             Int
+  applicationStatus ApplicationStatus @default(active)
+  personalStatement String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  pet               Pet      @relation(fields: [petID], references: [petID], onDelete: Cascade)
+  user              User     @relation(fields: [userEmail], references: [userEmail], onDelete: Cascade)
+
+  @@id([userEmail, petID])
+}
+
+enum ApplicationStatus {
+  active
+  withdrawn
+  approved
+  rejected
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum Gender {
+  male
+  female
+}

@@ -1,0 +1,51 @@
+/* Adopt.css */
+
+.admin-dashboard {
+    background-color: whitesmoke; /* Changed background color to whitesmoke */
+    padding: 20px;
+  }
+  
+  .admin-dashboard p {
+    color: indigo;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .admin-dashboard h1 {
+    color: darkblue;
+    background-color: whitesmoke; /* Changed background color to white */
+    margin: 0; /* Remove margins */
+    padding: 0; /* Remove paddings */
+    padding-bottom: 10px;
+  }
+  
+  .admin-dashboard .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .admin-dashboard th,
+  .admin-dashboard td {
+    padding: 10px;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+  
+  .admin-dashboard th {
+    background-color: #e6e6e6; /* Alice blue */
+    color: indigo;
+  }
+  
+  .admin-dashboard td {
+    background-color: #e6e6e6; /* Light grey */
+  }
+  
+  .admin-dashboard img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .manage-appli {
+    background-color: red;
+  }

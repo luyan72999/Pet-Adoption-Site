@@ -1,0 +1,35 @@
+/* PetDetail.css */
+
+/* Style for the card title */
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: navy;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  
+  /* Style for the card image */
+  .card-image {
+    max-width: 600px;
+    margin: 2%;
+  }
+  
+  /* Style for the card text */
+  .card-text {
+    max-width: 600px;
+    margin: 2%;
+  }
+  
+  /* Style for the location paragraph */
+  .location-p {
+    margin: 2%;
+    font-weight: bold;
+  }
+  
+  /* Style for the map container */
+  .map-container {
+    max-width: 600px;
+    margin: 2%;
+  }
+  
